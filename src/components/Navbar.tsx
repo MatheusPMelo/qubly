@@ -27,9 +27,8 @@ export function Navbar() {
         <div className="flex justify-center">
             <nav className='p-4 flex justify-between items-center max-w-max-screen-view w-full'>
                 <a href="#">
-                    <img src={Logo} />
+                    <img src={Logo} alt='Logo' />
                 </a>
-                {/* ----- */}
                 <div>
                     <Menubar.Root
                         className='w-full flex gap-10'
