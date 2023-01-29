@@ -11,8 +11,8 @@ export function Engineering() {
                         title='For Engineering Teams'
                         icon={<FaDraftingCompass />}
                     />
-                    <h1 className='font-bold text-title md:text-start text-center'>Data-driven pipelines in minutes</h1>
-                    <p className='text-base opacity-40 text-center md:text-start w-10/12 md:w-5/6 2xl:w-full'>Maintenance-free data pipelines with quick set-up and straight-forward deployments that are powered by a modern & scalable platform.</p>
+                    <h1 className='font-bold text-title md:text-start text-center dark:text-white'>Data-driven pipelines in minutes</h1>
+                    <p className='text-base opacity-40 text-center md:text-start w-10/12 md:w-5/6 2xl:w-full dark:text-white dark:opacity-80'>Maintenance-free data pipelines with quick set-up and straight-forward deployments that are powered by a modern & scalable platform.</p>
                 </div>
                 <div className="md:flex align-center justify-center hidden">
                     <img data-testid="logo" src={connection} alt="logos interligados" />

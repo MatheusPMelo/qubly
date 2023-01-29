@@ -32,10 +32,10 @@ export function WhyQubly() {
                 />
             </div>
             <div className="flex flex-col gap-y-6 items-center">
-                <h1 className="text-center text-title font-bold leading-10">
+                <h1 className="text-center text-title font-bold leading-10 dark:text-white">
                     Get actionable insights from Big Data in 3 steps
                 </h1>
-                <p className="text-center w-4/6 font-normal text-base opacity-40">
+                <p className="text-center w-4/6 font-normal text-base opacity-40 dark:text-white dark:opacity-80">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 </p>
                 <div data-testid={`container-card`} className="grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-x-4">
@@ -50,8 +50,8 @@ export function WhyQubly() {
                                     {card.icon}
                                 </span>
                             </div>
-                            <h3 data-testid={`item-title-${i}`} className="text-center font-bold leading-6 text-base">{card.title} - {i}</h3>
-                            <p data-testid={`item-text-${i}`} className="text-center opacity-40 md:w-4/5 w-3/4">{card.description}</p>
+                            <h3 data-testid={`item-title-${i}`} className="text-center font-bold leading-6 text-base dark:text-white">{card.title}</h3>
+                            <p data-testid={`item-text-${i}`} className="text-center opacity-40 md:w-4/5 w-3/4 dark:text-white dark:opacity-80">{card.description}</p>
                         </div>
                     ))}
                 </div>
