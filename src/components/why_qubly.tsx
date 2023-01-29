@@ -38,11 +38,11 @@ export function WhyQubly() {
                 <p className="text-center w-4/6 font-normal text-base opacity-40">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 </p>
-                <div className="flex justify-between gap-x-4">
+                <div data-testid={`container-card`} className="flex justify-between gap-x-4">
                     {cardsData.map((card, i) => (
-                        <div key={i} className="flex flex-col align-center justify-center gap-y-4">
+                        <div data-testid={`item-${i}`} key={i} className="flex flex-col align-center justify-center gap-y-4">
                             <div className="grid place-items-center w-full">
-                                <span className={clsx("flex justify-center w-fit p-4 rounded-full", [
+                                <span data-testid={`item-icon-${i}`} className={clsx("flex justify-center w-fit p-4 rounded-full", [
                                     i === 2 ? "bg-[#F6FFED]" : '',
                                     i === 1 ? "bg-[#FFF1F0]" : '',
                                     i === 0 ? "bg-[#E6F7FF]" : '',
@@ -50,8 +50,8 @@ export function WhyQubly() {
                                     {card.icon}
                                 </span>
                             </div>
-                            <h3 className="text-center font-bold leading-6 text-base">{card.title} - {i}</h3>
-                            <p className="text-center opacity-40">{card.description}</p>
+                            <h3 data-testid={`item-title-${i}`} className="text-center font-bold leading-6 text-base">{card.title} - {i}</h3>
+                            <p data-testid={`item-text-${i}`} className="text-center opacity-40">{card.description}</p>
                         </div>
                     ))}
                 </div>
