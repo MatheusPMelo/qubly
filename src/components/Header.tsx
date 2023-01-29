@@ -15,11 +15,13 @@ export function Header() {
                     />
                     
                     <h1
+                        data-testid="headerTitle"
                         className='text-5xl font-bold w-[90%] my-6 dark:text-white'
                     >
                         Your data with real-time analytics
                     </h1>
                     <p
+                        data-testid="headerSubtitle"
                         className='opacity-50 text-sm mb-6 font-medium dark:text-white dark:opacity-80'
                     >
                         Harness the potential of Big Data Analytics & Cloud Services and become a data-driven organization with Needle tail
@@ -27,12 +29,14 @@ export function Header() {
 
                     <div className="flex gap-4">
                         <a 
+                            data-testid="headerButtonStartTrial"
                             href=""
                             className='py-2 transition-all duration-300 hover:-translate-y-1 px-6 bg-violet-700 text-white rounded-full text-base'
                         >
                             Start free trial
                         </a>
                         <a 
+                            data-testid="headerButtonLearnMore"
                             href=""
                             className='py-2 transition-all duration-300 hover:-translate-y-1 px-6 bg-white text-violet-700 rounded-full text-base'
                         >
@@ -41,7 +45,11 @@ export function Header() {
                     </div>
                 </div>
                 <div className='py-5'>
-                    <img src={logoHeader} />
+                    <img
+                        data-testid="headerImage" 
+                        src={logoHeader}
+                        alt="conexão a núvem"
+                    />
                 </div>
             </div>
         </div>
