@@ -7,7 +7,7 @@ export function Teams() {
         <section className="container mx-auto px-4 py-16">
             <div className="grid md:gap-x-20 md:grid-cols-2">
                 <div className="md:flex align-center justify-center hidden">
-                    <img src={logos_circles} alt="logos em um circulo" />
+                    <img data-testid="logo" src={logos_circles} alt="logos em um circulo" />
                 </div>
                 <div className="grid place-items-center md:place-items-start flex-col my-auto gap-y-6">
                     <Tag
