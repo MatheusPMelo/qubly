@@ -5,6 +5,7 @@ import { WhyQubly } from './components/WhyQubly'
 import { Teams } from './components/Teams'
 import { Engineering } from './components/Engineering'
 import { Feedback } from './components/Feedback'
+import { SignUp } from './components/SignUp'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Teams />
       <Engineering />
       <Feedback />
+      <SignUp />
     </div>
   )
 }
