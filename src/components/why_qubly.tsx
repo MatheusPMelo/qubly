@@ -32,13 +32,13 @@ export function WhyQubly() {
                 />
             </div>
             <div className="flex flex-col gap-y-6 items-center">
-                <h1 className="text-center text-3xl font-bold leading-10">
+                <h1 className="text-center text-title font-bold leading-10">
                     Get actionable insights from Big Data in 3 steps
                 </h1>
                 <p className="text-center w-4/6 font-normal text-base opacity-40">
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
                 </p>
-                <div data-testid={`container-card`} className="flex justify-between gap-x-4">
+                <div data-testid={`container-card`} className="grid grid-cols-3 gap-x-4">
                     {cardsData.map((card, i) => (
                         <div data-testid={`item-${i}`} key={i} className="flex flex-col align-center justify-center gap-y-4">
                             <div className="grid place-items-center w-full">

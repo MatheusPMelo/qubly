@@ -12,6 +12,9 @@ module.exports = {
       },
       maxWidth: {
         'max-screen-view': 'calc(100vw - 30%)'
+      },
+      fontSize: {
+        'title': '32px'
       }
     },
   },
