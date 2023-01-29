@@ -14,8 +14,8 @@ export function Teams() {
                         title='For Product Teams'
                         icon={<BiGitRepoForked />}
                     />
-                    <h1 className='font-bold text-title md:text-start text-center'>Launch with the best stack</h1>
-                    <p className='text-base opacity-40 text-center md:text-start w-10/12 md:w-5/6 2xl:w-full'>A centralized platform that integrates zillions of data sources using Big Data ELT (Extract, Load & Transform) that leaves no data behind</p>
+                    <h1 className='font-bold text-title md:text-start text-center dark:text-white'>Launch with the best stack</h1>
+                    <p className='text-base opacity-40 text-center md:text-start w-10/12 md:w-5/6 2xl:w-full dark:text-white dark:opacity-80'>A centralized platform that integrates zillions of data sources using Big Data ELT (Extract, Load & Transform) that leaves no data behind</p>
                 </div>
             </div>
         </section>

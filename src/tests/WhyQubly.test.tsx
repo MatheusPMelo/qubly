@@ -2,7 +2,7 @@ import '@testing-library/dom'
 import '@testing-library/jest-dom'
 import { render } from '@testing-library/react'
 import { describe, test } from 'vitest'
-import { WhyQubly } from '../components/why_qubly'
+import { WhyQubly } from '../components/WhyQubly'
 
 describe("WhyQubly - Should reder section correctly", () => {
     test("should render correctly texts fixeds in the document", () => {
