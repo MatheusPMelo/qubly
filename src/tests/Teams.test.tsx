@@ -2,7 +2,7 @@ import '@testing-library/dom'
 import '@testing-library/jest-dom'
 import { render } from '@testing-library/react'
 import { describe, test } from 'vitest'
-import { Teams } from '../components/teams'
+import { Teams } from '../components/Teams'
 
 describe("Teams - Should render teams component correctly in the document", () => {
     
