@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { Navbar } from './components/Navbar'
 import { WhyQubly } from './components/why_qubly'
 import { Teams } from './components/teams'
+import { Engineering } from './components/Engineering'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <WhyQubly />
       <Teams />
+      <Engineering />
     </div>
   )
 }
