@@ -22,10 +22,8 @@ const navMenuItems = [
 
 export function Navbar() {
     return (
-
-
         <div className="md:flex md:justify-center hidden">
-            <nav className='p-4 flex justify-between items-center max-w-max-screen-view w-full'>
+            <nav className='p-4 flex justify-between items-center container mx-auto px-4'>
                 <a href="#">
                     <img src={Logo} alt='Logo' />
                 </a>
@@ -52,7 +50,5 @@ export function Navbar() {
                 </div>
             </nav>
         </div>
-
-
     )
 }
