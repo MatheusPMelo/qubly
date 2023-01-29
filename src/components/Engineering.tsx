@@ -5,7 +5,7 @@ import {FaDraftingCompass} from 'react-icons/fa'
 export function Engineering() {
     return (
         <section className="container mx-auto px-4 py-16">
-            <div className="grid grid-cols-2">
+            <div className="grid md:grid-cols-2 grid-cols-1">
                 <div className="grid place-items-center md:place-items-start flex-col my-auto gap-y-6">
                     <Tag
                         title='For Engineering Teams'

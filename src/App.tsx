@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar'
 import { WhyQubly } from './components/why_qubly'
 import { Teams } from './components/teams'
 import { Engineering } from './components/Engineering'
+import { Feedback } from './components/Feedback'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <WhyQubly />
       <Teams />
       <Engineering />
+      <Feedback />
     </div>
   )
 }
