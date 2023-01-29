@@ -8,10 +8,8 @@ module.exports = {
     extend: {
       colors: {
         'blue-light': '#E2F1FF',
-        'blue-darker': '#C0DFFF'
-      },
-      maxWidth: {
-        'max-screen-view': 'calc(100vw - 30%)'
+        'blue-darker': '#C0DFFF',
+        'pink-light': '#F9F0FF',
       },
       fontSize: {
         'title': '32px'
