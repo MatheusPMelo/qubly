@@ -24,7 +24,7 @@ export function Navbar() {
     return (
 
 
-        <div className="flex justify-center">
+        <div className="md:flex md:justify-center hidden">
             <nav className='p-4 flex justify-between items-center max-w-max-screen-view w-full'>
                 <a href="#">
                     <img src={Logo} alt='Logo' />
