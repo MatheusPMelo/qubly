@@ -67,7 +67,7 @@ export function Footer() {
                     </div>
                     <div className="w-full">
                         <p className='w-2/3'>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim
+                            Lorem ipsum dolr sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim
                         </p>
                     </div>
                     <div className="grid grid-cols-10 justify-start w-full">
