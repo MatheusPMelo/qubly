@@ -6,6 +6,7 @@ import { Teams } from './components/Teams'
 import { Engineering } from './components/Engineering'
 import { Feedback } from './components/Feedback'
 import { SignUp } from './components/SignUp'
+import { Footer } from './components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Engineering />
       <Feedback />
       <SignUp />
+      <Footer />
     </div>
   )
 }
